@@ -1,0 +1,11 @@
+name "jni-exploration"
+description "Testing `arsd.jni`"
+authors "cc4696"
+copyright "Copyright © 2021, cc4696"
+license "LGPL"
+configuration "src-Main" {
+    dependency "arsd-official" version="~>10.4.4"
+    targetType "dynamicLibrary"
+    targetName "jniTest"
+    dflags "-shared"
+}
