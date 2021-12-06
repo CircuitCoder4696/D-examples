@@ -1,5 +1,5 @@
 import std.stdio;
-import test.jni;
+import arsd.jni;
 
 final class Main : JavaClass!("test", Main) {
     @Export string getAString() {
