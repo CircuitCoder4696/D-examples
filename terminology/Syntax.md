@@ -7,6 +7,6 @@ CTFE (<B>c</B>ompile-<B>t</B>ime <B>f</B>unction <B>e</B>xecution): `static `{`i
 
 Structure: `struct `{structure's name}` {`...`}`
 
-## Idioms
+## Idioms   <I>This seems to be what it's called, but I'm not sure.  </I>
 
 An extra `{`...`}` in a loop's block-statement is sometimes used to make it easier to define one's variables in something like a loop rather than definging those variables outside a loop.  However, for each pass of that loop, all those variables are erased.  
