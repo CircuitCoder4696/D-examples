@@ -3,7 +3,7 @@
 
 Block-statement: `{`...`}`
 
-CTFE (<B>c</B>ompile-<B>t</B>ime <B>f</B>unction <B>e</B>xecution): `static `{`if` or `foreach` or `for` or `if else` or `else`} as well as function templates and mixins.   <I>This one is incomplete by the way.  </I>
+CTFE (<B>c</B>ompile-<B>t</B>ime <B>f</B>unction <B>e</B>xecution): `static `{`if` or `foreach` or `for` or `else if` or `else`} as well as function templates and mixins.   <I>This one is incomplete by the way.  </I>
 
 Structure: `struct `{structure's name}` {`...`}`
 
