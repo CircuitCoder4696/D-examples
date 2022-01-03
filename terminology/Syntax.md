@@ -3,6 +3,6 @@
 
 Block-statement: `{`...`}`
 
-CTFE: `static `{`if` or `foreach` or `for` or `if else` or `else`}   //   This one is incomplete by the way.  
+CTFE: `static `{`if` or `foreach` or `for` or `if else` or `else`}   <I>This one is incomplete by the way.  </I>
 
 Structure: `struct `...` {`...`}`
