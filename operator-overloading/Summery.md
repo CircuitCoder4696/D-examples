@@ -10,7 +10,8 @@ struct ExampleStruct {
         else static assert(0, "Operator "~op~" not implemented");
     };
 };
-``````d
+```
+```d
 void main() {
     import std.stdio : writeln;
     5.timesTwo.timesTwo.writeln; // 20
