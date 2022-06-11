@@ -1,6 +1,5 @@
 ```d
 public struct VariantObj {
-    import std.stdio;
     import std.variant;
     private Variant[string] data;
     public void opDispatch(string i, T)(T v) {
@@ -13,6 +12,7 @@ public struct VariantObj {
 };
 
 void main() {
+    import std.stdio;
     VariantObj o;
     o.foo= 7;
     o.keys= "Oops, I dropped my key list.  ";
