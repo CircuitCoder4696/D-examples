@@ -1,0 +1,5 @@
+name "d-example-tests"
+description "Tests for example-code.  "
+authors "CircuitCoder4696"
+copyright "Copyright © 2022, CircuitCoder4696"
+license "LGPL 2.1"
